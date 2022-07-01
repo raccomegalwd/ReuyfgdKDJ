@@ -27,4 +27,3 @@ jobs:
       continue-on-error: true
     - name: run job
       run: bash -x ../../../run-job.sh cli-automl-text-classification-multilabel-paper-cat.yml
-      working-directory: cli/jobs/automl-standalone-jobs/cli-automl-text-classification-multilabel-paper-cat
